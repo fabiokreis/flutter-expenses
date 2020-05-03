@@ -28,8 +28,6 @@ class _TransactionFormState extends State<TransactionForm> {
     widget.onSubmit(title, value, _selectedDate);
   }
 
-  
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
